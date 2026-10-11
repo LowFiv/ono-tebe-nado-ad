@@ -1,1 +1,263 @@
-/* место для вашего кода */
+
+.header{
+    height:   293px;
+    display: flex;
+    font-size: 18px;
+}
+
+.menu{
+    margin: 133px 36.52px 0px 55px;
+    white-space: nowrap;
+}
+
+.menu-list{
+    display: flex;
+  flex-direction: row;
+  list-style-type:circle;
+  gap: 32px;
+  text-underline-offset: 4px;
+}
+
+.first-item{
+    list-style-type:none;
+}
+
+
+.logo-image{
+    margin: 92px 9px 0 9px; 
+    width: 148px ;
+    height: 105px;
+
+}
+
+.contacts{
+     margin: 95px 50px 100px 184px; 
+     line-height: 24.3px;
+     width: 240px ;
+     list-style-type:none;
+}
+
+.contacts-item{
+   font-style: normal;
+   text-underline-offset: 4px;
+}
+
+.cover{
+    color: #ffffff;
+    height: 757px;
+    width: 1100px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover-background{
+    
+    height: 757px;
+    width: 1100px;
+    z-index: -1;
+    position: absolute;
+    display: flex;
+}
+
+.cover-title{
+    padding: 165px 50px 0px 50px; 
+    display: block;
+    letter-spacing: 30%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+
+.text-center{
+    padding-top: 0;
+     text-align: center;
+}
+
+.text-right{
+    padding-top: 0;
+     text-align: right;
+}
+
+.cover-description{
+    text-transform: uppercase;
+    padding: 106px 50px 50px 50px; 
+    justify-content: space-between;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    word-spacing: 13.5px
+}
+
+.cover-text{
+    padding-top: 13px 
+}
+
+.cover-button{
+    border: 1px solid #ffffff;
+    padding: 12px 32px 11px 32px; 
+    word-spacing:normal;
+    background: none;      
+    margin: 0;    
+    color: inherit;    
+    cursor: pointer; 
+    text-transform: uppercase;
+} 
+
+.lots{
+    margin: 180px 24px 120px 24px;
+    
+}
+
+.lots-greed{
+    display: flex;
+    gap: 25px; 
+    flex-wrap: wrap; 
+}
+.lot{
+    position: relative;
+    width:  334px;
+    height:    596px;
+    display: flex;             
+    flex-direction: column;     
+    justify-content: space-between; 
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.lot-image{
+    width:  334px;
+    height:    596px;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+}
+
+.lots-heading{
+    padding: 0 0 27px 40px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.title-lot{
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ffffff;
+    padding:   48px 40px 0px 40px;
+}
+
+.text-lot{  
+    color: #ffffff;
+     padding:   0px 40px 48px 40px;
+     font-size: 20px;
+}
+
+.lots-more{
+    font-size: 20px;
+    padding:   30px 0px 0px 40px;
+    display: block;
+}
+
+.about{
+    margin: 0px 24px 180px 24px;
+    display: flex;
+}
+
+.about-text{
+    
+    font-size: 20px;
+    line-height: 24px;
+    padding: 24px 0 0 0;
+    width: 688px;
+}
+.about-title{
+     display: block;
+    margin: 136px 0 76px 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.about-image-container{
+  margin: 35px 72px 0 47px;
+  width: 240px;               
+  height: 240px;
+  background-color: #000;    
+  border-radius: 50%;         
+  display: flex;              
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;  
+}
+
+.about-image{
+    width:   148px ;
+    height:   114px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    font-size: 18px;
+}
+
+.footer-menu-list{
+    text-align: center;
+    list-style: none;
+    text-underline-offset: 4px;
+}
+
+.footer-menu{
+    margin-right:  177.5px;
+}
+
+.footer-content{
+    display: flex;
+}
+
+.footer-contacts{
+    margin: 0 154px 82px 50px;
+     line-height: 24.3px;
+     width: 264.6px ;
+     list-style-type:none;
+}
+
+.footer-contacts-item{
+   font-style: normal;
+   text-underline-offset: 4px;
+}
+
+.sociales{
+    display: flex;
+    gap: 48px;
+    margin-right:  50px;
+}
+
+.sociales-logo{
+    height: 48px;
+    width:  48px
+}
+
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+       url('../fonts/Raleway-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
+       url('../fonts/Raleway-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
