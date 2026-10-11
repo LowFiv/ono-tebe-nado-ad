@@ -29,10 +29,10 @@
 }
 
 .contacts {
-     margin: 95px 50px 100px 184px; 
-     line-height: 24.3px;
-     width: 240px ;
-     list-style-type:none;
+    margin: 95px 50px 100px 184px;
+    line-height: 24.3px;
+    width: 240px ;
+    list-style-type:none;
 }
 
 .contacts-item {
@@ -93,10 +93,10 @@
     border: 1px solid #ffffff;
     padding: 12px 32px 11px 32px; 
     word-spacing:normal;
-    background: none;      
-    margin: 0;    
-    color: inherit;    
-    cursor: pointer; 
+    background: none;
+    margin: 0;
+    color: inherit;
+    cursor: pointer;
     text-transform: uppercase;
 } 
 
@@ -106,7 +106,7 @@
 
 .lots-greed {
     display: flex;
-    gap: 25px; 
+    gap: 25px;
     flex-wrap: wrap; 
 }
 
@@ -114,9 +114,9 @@
     position: relative;
     width:  334px;
     height:    596px;
-    display: flex;             
-    flex-direction: column;     
-    justify-content: space-between; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -145,7 +145,7 @@
     padding:   48px 40px 0px 40px;
 }
 
-.text-lot {  
+.text-lot {
     color: #ffffff;
     padding:   0px 40px 48px 40px;
     font-size: 20px;
@@ -178,15 +178,15 @@
 }
 
 .about-image-container {
-  margin: 35px 72px 0 47px;
-  width: 240px;               
-  height: 240px;
-  background-color: #000;    
-  border-radius: 50%;         
-  display: flex;              
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;  
+    margin: 35px 72px 0 47px;
+    width: 240px;
+    height: 240px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .about-image {
@@ -235,5 +235,5 @@
 
 .sociales-logo {
     height: 48px;
-    width:  48px
+    width:  48px;
 }
