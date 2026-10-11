@@ -1,16 +1,15 @@
-
-.header{
+.header {
     height:   293px;
     display: flex;
     font-size: 18px;
 }
 
-.menu{
+.menu {
     margin: 133px 36.52px 0px 55px;
     white-space: nowrap;
 }
 
-.menu-list{
+.menu-list {
     display: flex;
   flex-direction: row;
   list-style-type:circle;
@@ -18,39 +17,37 @@
   text-underline-offset: 4px;
 }
 
-.first-item{
+.first-item {
     list-style-type:none;
 }
 
 
-.logo-image{
+.logo-image {
     margin: 92px 9px 0 9px; 
     width: 148px ;
     height: 105px;
-
 }
 
-.contacts{
+.contacts {
      margin: 95px 50px 100px 184px; 
      line-height: 24.3px;
      width: 240px ;
      list-style-type:none;
 }
 
-.contacts-item{
+.contacts-item {
    font-style: normal;
    text-underline-offset: 4px;
 }
 
-.cover{
+.cover {
     color: #ffffff;
     height: 757px;
     width: 1100px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.cover-background{
-    
+.cover-background {
     height: 757px;
     width: 1100px;
     z-index: -1;
@@ -58,7 +55,7 @@
     display: flex;
 }
 
-.cover-title{
+.cover-title {
     padding: 165px 50px 0px 50px; 
     display: block;
     letter-spacing: 30%;
@@ -68,17 +65,17 @@
 }
 
 
-.text-center{
+.text-center {
     padding-top: 0;
      text-align: center;
 }
 
-.text-right{
+.text-right {
     padding-top: 0;
      text-align: right;
 }
 
-.cover-description{
+.cover-description {
     text-transform: uppercase;
     padding: 106px 50px 50px 50px; 
     justify-content: space-between;
@@ -88,11 +85,11 @@
     word-spacing: 13.5px
 }
 
-.cover-text{
+.cover-text {
     padding-top: 13px 
 }
 
-.cover-button{
+.cover-button {
     border: 1px solid #ffffff;
     padding: 12px 32px 11px 32px; 
     word-spacing:normal;
@@ -103,17 +100,17 @@
     text-transform: uppercase;
 } 
 
-.lots{
-    margin: 180px 24px 120px 24px;
-    
+.lots {
+    margin: 180px 24px 120px 24px; 
 }
 
-.lots-greed{
+.lots-greed {
     display: flex;
     gap: 25px; 
     flex-wrap: wrap; 
 }
-.lot{
+
+.lot {
     position: relative;
     width:  334px;
     height:    596px;
@@ -123,7 +120,7 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.lot-image{
+.lot-image {
     width:  334px;
     height:    596px;
     z-index: -1;
@@ -131,7 +128,7 @@
     object-fit: cover;
 }
 
-.lots-heading{
+.lots-heading {
     padding: 0 0 27px 40px;
     text-transform: uppercase;
     font-size: 40px;
@@ -139,7 +136,7 @@
 }
 
 
-.title-lot{
+.title-lot {
     text-transform: uppercase;
     font-size: 22px;
     text-decoration: underline;
@@ -148,31 +145,30 @@
     padding:   48px 40px 0px 40px;
 }
 
-.text-lot{  
+.text-lot {  
     color: #ffffff;
-     padding:   0px 40px 48px 40px;
-     font-size: 20px;
+    padding:   0px 40px 48px 40px;
+    font-size: 20px;
 }
 
-.lots-more{
+.lots-more {
     font-size: 20px;
     padding:   30px 0px 0px 40px;
     display: block;
 }
 
-.about{
+.about {
     margin: 0px 24px 180px 24px;
     display: flex;
 }
 
-.about-text{
-    
+.about-text {
     font-size: 20px;
     line-height: 24px;
     padding: 24px 0 0 0;
     width: 688px;
 }
-.about-title{
+.about-title {
      display: block;
     margin: 136px 0 76px 0;
     text-transform: uppercase;
@@ -181,7 +177,7 @@
     white-space: nowrap;
 }
 
-.about-image-container{
+.about-image-container {
   margin: 35px 72px 0 47px;
   width: 240px;               
   height: 240px;
@@ -193,52 +189,51 @@
   flex-shrink: 0;  
 }
 
-.about-image{
+.about-image {
     width:   148px ;
     height:   114px;
 }
 
-
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     height: 180px;
     font-size: 18px;
 }
 
-.footer-menu-list{
+.footer-menu-list {
     text-align: center;
     list-style: none;
     text-underline-offset: 4px;
 }
 
-.footer-menu{
+.footer-menu {
     margin-right:  177.5px;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
 }
 
-.footer-contacts{
+.footer-contacts {
     margin: 0 154px 82px 50px;
      line-height: 24.3px;
      width: 264.6px ;
      list-style-type:none;
 }
 
-.footer-contacts-item{
+.footer-contacts-item {
    font-style: normal;
    text-underline-offset: 4px;
 }
 
-.sociales{
+.sociales {
     display: flex;
     gap: 48px;
     margin-right:  50px;
 }
 
-.sociales-logo{
+.sociales-logo {
     height: 48px;
     width:  48px
 }
