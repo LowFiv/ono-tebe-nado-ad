@@ -22,7 +22,7 @@
 }
 
 .logo-image {
-    margin: 92px 9px 0 9px; 
+    margin: 92px 9px 0 9px;
     width: 148px;
     height: 105px;
 }
@@ -35,8 +35,8 @@
 }
 
 .contacts-item {
-   font-style: normal;
-   text-underline-offset: 4px;
+    font-style: normal;
+    text-underline-offset: 4px;
 }
 
 .cover {
